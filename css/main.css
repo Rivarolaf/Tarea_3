@@ -1,0 +1,50 @@
+#encabezado{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+#navbar{
+	width:90%;
+	margin: auto;
+	z-index: 100;
+}
+
+#navbar a{
+	background-color: #720ebe;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 18px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#cuerpo{
+	width: 1000px;
+	margin: auto;
+	margin-top:100px;
+	margin-bottom: 300px;
+}
+#piedepagina{
+}
+
+body{
+	background: url("../imagenes/background.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-color: #da3c68;
+}
+
+h1{
+	font-family: Impact, Charcoal, sans-serif;
+	text-align: center;
+	font-size: 72px;
+	text-shadow: 0px 0px 30px white;
+}
+
+p{
+	text-indent: 50px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
