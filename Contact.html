@@ -3,7 +3,7 @@
 <html style="overflow-y: scroll">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="keywords" content="cat, pictures, gatos, fotos" />
+		<meta name="keywords" content="cat, pictures, gatos, fotos">
 		<title>La Pagina de Gatos - Contacto</title>
 		<link rel="stylesheet" href="css/main.css">
 	</head>
@@ -24,11 +24,39 @@
 
 
 		<main id="cuerpo">
-			<h1>Titulo</h1>
-			<p>Parrafo 1.</p>
-			<p>Parrafo 1.</p>
-			<p>Parrafo 1.</p>
-		<main>
+			<h1>Contacto</h1>
+			<form id="contactform">
+				<table style="width:50%">
+					<tr>
+						<label for="useremail">Direccion de Correo: </label>
+						<br>
+						<span style="display:block">
+						<input type="email" id="useremail" class="inputfield" placeholder="ejemplo@ejemplo.com" required>
+						</span>
+						<br>
+					</tr>
+					<tr>
+						<label for="asunto">Asunto: </label>
+						<br>
+						<span style="display:block">
+						<input type="text" id="asunto" class="inputfield" placeholder="Asunto" required >
+						</span>
+						<br>
+					</tr>
+					<tr>
+						<label for="mensaje">Mensaje: </label>
+						<br>
+						<span style="display:block">
+						<textarea id="mensaje" class="inputfield" rows="10" placeholder="Mensaje..." required></textarea>
+						</span>
+						<br>
+					</tr>
+					<tr>
+						<input type="submit" id="submitbutton" value="Enviar">
+					</tr>
+				</table>
+			</form>
+		</main>
 
 		<footer>
 		</footer>
