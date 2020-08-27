@@ -1,40 +1,18 @@
-#encabezado{
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-#navbar{
-	width:90%;
-	margin: auto;
-	z-index: 100;
+body
+{
+	margin-bottom: 150px;
 }
 
-#navbar a{
-	background-color: #720ebe;
-	color: white;
-	cursor: pointer;
-	padding: 15px;
-	border-radius: 10px;
-	font-size: 18px;
-	text-decoration: none;
-	font-family: Arial, Helvetica, sans-serif;
+main{
+	margin-top:50px;
 }
 
-#cuerpo{
-	width: 900px;
-	margin: auto;
-	margin-top:100px;
-	margin-bottom: 100px;
-}
-
-#piedepagina{
-}
-
-#tablagaleria img{
+a img{
 	border: 5px solid #777;
+	margin-top:30px;
 }
 
-#tablagaleria img:hover{
+a img:hover{
 	border: 5px solid #ffffff;
 }
 
