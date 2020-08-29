@@ -7,12 +7,12 @@ main{
 	margin-top:50px;
 }
 
-a img{
+.galerycat {
 	border: 5px solid #777;
 	margin-top:30px;
 }
 
-a img:hover{
+.galerycat:hover {
 	border: 5px solid #ffffff;
 }
 
